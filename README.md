@@ -1,5 +1,5 @@
 # mainProject
-
+Ian Berube & Max Lalonde
 MICROS System (Java Replica)
 
 Our project will be a basic version of the user interface that many resturants use

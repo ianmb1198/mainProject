@@ -16,5 +16,6 @@ Features:
     prints out an itemized receipt with food/drinks/liquor sales and shows the amount (in cash)
     the user owes the resturant or the amount the resturant owes the user.
 - Gives user the option to update the menu on the interface if needed.
+- Input validation.
 
 (more features to come)

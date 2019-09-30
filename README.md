@@ -17,5 +17,8 @@ Features:
     the user owes the resturant or the amount the resturant owes the user.
 - Gives user the option to update the menu on the interface if needed.
 - Input validation.
+- The menu will be from The Tavern Grill: 
+https://media-cdn.getbento.com/accounts/c3ab67a23c0576ace5773a401c3e9ecd/media/ADQhjsmMQRG3IYp5Ea3c_4530-11000819_TAV_MainMenu.pdf
+
 
 (more features to come)

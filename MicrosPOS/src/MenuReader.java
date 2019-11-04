@@ -39,9 +39,10 @@ public class MenuReader
 		{
 			menu = fileIn.nextLine();
 			String[] strSplit = menu.split(",");
-			items[index] = strSplit[0];
-			prices[index] = Double.parseDouble(strSplit[1]);
-			types[index] = strSplit[2];
+			types[index] = strSplit[0];
+			items[index] = strSplit[1];
+			prices[index] = Double.parseDouble(strSplit[2]);
+			
 			index++;
 		}
 		

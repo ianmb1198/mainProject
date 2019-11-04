@@ -1,0 +1,10 @@
+App,Bull Bites,8.99
+App,Bontons 3,6.99
+App,Bontons 5,8.99
+Lunch,Mac & Chz,12.99
+Lunch,Chx Sand,12.99
+Dinner,Filet Mignon,25.99
+Dinner,Prime Rib,21.99
+Bev,Coke,2.50
+Bev,Diet Coke,2.50
+Bev,Sprite,2.50

@@ -49,22 +49,22 @@ public class MenuReader
 		{
 			if (isBeverage(types, index))
 			{
-				setBeverage(items, prices, index);
+				setBeverage(types, items, prices, index);
 				size++;
 			}
 			else if (isAppetizer(types, index))
 			{
-				setAppetizer(items, prices, index);
+				setAppetizer(types, items, prices, index);
 				size++;
 			}
 			else if (isLunch(types, index))
 			{
-				setLunch(items, prices, index);
+				setLunch(types, items, prices, index);
 				size++;
 			}
 			else if (isDinner(types, index))
 			{
-				setDinner(items, prices, index);
+				setDinner(types, items, prices, index);
 				size++;
 			}
 			else
@@ -102,24 +102,24 @@ public class MenuReader
 			return false;
 	}
 	
-	public void setBeverage(String[] item, double[] price, int i)
+	public void setBeverage(String[] type, String[] item, double[] price, int i)
 	{
-		bev = new Beverage(item[i], price[i]);
+		bev = new Beverage(type[i], item[i], price[i]);
 		menu[i] = bev;
 	}
-	public void setAppetizer(String[] item, double[] price, int i)
+	public void setAppetizer(String[] type, String[] item, double[] price, int i)
 	{
-		app = new Appetizer(item[i], price[i]);
+		app = new Appetizer(type[i], item[i], price[i]);
 		menu[i] = app;
 	}
-	public void setLunch(String[] item, double[] price, int i)
+	public void setLunch(String[] type, String[] item, double[] price, int i)
 	{
-		lunch = new Lunch(item[i], price[i]);
+		lunch = new Lunch(type[i], item[i], price[i]);
 		menu[i] = lunch;
 	}
-	public void setDinner(String[] item, double[] price, int i)
+	public void setDinner(String[] type, String[] item, double[] price, int i)
 	{
-		dinner = new Dinner(item[i], price[i]);
+		dinner = new Dinner(type[i], item[i], price[i]);
 		menu[i] = dinner;
 	}
 	

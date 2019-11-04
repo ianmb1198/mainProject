@@ -14,6 +14,11 @@ public class MenuReader
 	private Dinner dinner;
 	//TODO: add dessert
 	
+	public MenuReader()
+	{
+		readFile();
+	}
+	
 	public void readFile()
 	{
 		Scanner cin = new Scanner(System.in);

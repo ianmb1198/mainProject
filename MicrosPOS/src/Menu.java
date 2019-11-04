@@ -1,30 +1,30 @@
 
 public class Menu 
 {
-	private String name;
+	private String type;
 	
 	public Menu()
 	{
-		name = null;
+		type = null;
 	}
 	
-	public Menu(String name)
+	public Menu(String type)
 	{
-		this.name = name;
+		this.type = type;
 	}
 	
-	public void setName(String name)
+	public void setType(String type)
 	{
-		this.name = name;
+		this.type = type;
 	}
 	
-	public String getName()
+	public String getType()
 	{
-		return name;
+		return type;
 	}
 	
 	public String toString()
 	{
-		return name;
+		return type;
 	}
 }

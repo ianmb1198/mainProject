@@ -2,10 +2,12 @@
 public class Lunch extends Menu
 {
 	private double price;
+	private String item;
 	
-	public Lunch(String name, double price)
+	public Lunch(String type, String item, double price)
 	{
-		super(name);
+		super(type);
+		this.item = item;
 		this.price = price;
 	}
 	
@@ -13,16 +15,24 @@ public class Lunch extends Menu
 	{
 		this.price = price;
 	}
+	public void setItem(String item)
+	{
+		this.item = item;
+	}
 	
 	public double getPrice()
 	{
 		return price;
 	}
+	public String getItem()
+	{
+		return item;
+	}
 	
 	@Override
 	public String toString()
 	{
-		String lunchInfo = getName().toString() + "\t\t$" + price;
+		String lunchInfo = item + "\t$" + price;
 		return lunchInfo;
 	}
 }
